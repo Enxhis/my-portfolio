@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Nav variant="tabs" defaultActiveKey="/home">
           <Nav.Item>
-            <Nav.Link href="/Home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
