@@ -6,7 +6,7 @@ import './style.css';
 function Header() {
     return (
         <div>
-            <Jumbotron fluid className='jumbotron'>
+            <Jumbotron fluid className="jumbotron">
                 <Container>
                     <h1 className='title'>Enxhi's Portfolio</h1>
                     <p className='subtitle'>This is my react portfolio.</p>
