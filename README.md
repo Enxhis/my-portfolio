@@ -1,3 +1,8 @@
+## My-Portfolio
+
+# Description
+  * This is a portfolio app built with react framework
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
