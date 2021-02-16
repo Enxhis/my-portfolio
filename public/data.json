@@ -1,0 +1,154 @@
+{
+    "main": {
+        "name": "Enxhi Salaj",
+        "occupation": "Full Stack developer",
+        "description": "Full Stack developer, Python & Java Developer",
+        "image": "profile.jpg",
+        "bio": "My name is Enxhi Salaj. I know a lot of people experience difficulties with my name, but it is pronounced as Angie. I am currently based in Sterling Heights Michigan where I am graduating in full-stack web development through Michigan State University.",
+        "contactmessage": "Let's get in touch to receive further details.",
+        "email": "enxhi_salaj@yahoo.com",
+        "phone": "+1 (248) 854-7336",
+        "address": {
+            "street": "11840 15 Mile Rd",
+            "city": "Sterling Heights",
+            "state": "Michigan",
+            "zip": "48312"
+        },
+        "website": "this",
+        "resumedownolad": "./resume.pdf",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/enxhi-salaj-09a859173/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/Enxhis",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "Beside some of the developer skills listed, I am fluent in natural languages like: Albanian, English, Norwegian (Bokmål), Italian, Swedish and some French.",
+        "education": [
+            {
+                "school": "University of Oslo - Norway",
+                "degree": "Bachelor of Science in Informatics",
+                "graduated": "December 2019",
+                "description": ""
+            }
+        ],
+        "skills": [
+            {
+                "name": "JavaScript",
+                "level": "95%"
+            },
+            {
+                "name": "Java",
+                "level": "95%"
+            },
+            {
+                "name": "Python",
+                "level": "100%"
+            },
+            {
+                "name": "C++",
+                "level": "75%"
+            },
+            {
+                "name": "ReactJs",
+                "level": "70%"
+            },
+            {
+                "name": "SQL",
+                "level": "95%"
+            },
+            {
+                "name": "MongoDB",
+                "level": "99%"
+            },
+            {
+                "name": "Angular",
+                "level": "40%"
+            },
+            {
+                "name": "Git",
+                "level": "75%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Tech.IT",
+                "category": "Frontend Application built with Jquery, HTML, CSS, AJAX",
+                "image": "tech-it-app.png",
+                "url": "https://studygroup2021.github.io/tech.it/",
+                "code": "https://github.com/StudyGroup2021/tech.it"
+            },
+            {
+                "title": "Git.Interview",
+                "category": "Full-stack Application built with NodeJS, MySQL, HandleBars",
+                "image": "git-interview-app.png",
+                "url": "https://git-interview21.herokuapp.com/",
+                "code": "https://github.com/MSU-developmentTeam/Git.Interview"
+            },
+            {
+                "title": "Eat The Burger",
+                "category": "Full-Stack Application built with NodeJS, ORM, HandleBars",
+                "image": "burger-app.png",
+                "url": "https://evening-badlands-00472.herokuapp.com/",
+                "code": "https://github.com/Enxhis/Eat-The-Burger"
+            },
+            {
+                "title": "Note Taker",
+                "category": "Full-stack Application built with NodeJs, jQuery, Express server",
+                "image": "note-taker-app.png",
+                "url": "https://guarded-journey-38495.herokuapp.com/",
+                "code": "https://github.com/Enxhis/Note-Taker"
+            },
+            {
+                "title": "Code Quiz",
+                "category": "Frontend Application built with jQuery, HTML, CSS",
+                "image": "quiz-app.png",
+                "url": "https://enxhis.github.io/CodeQuiz/",
+                "code": "https://github.com/Enxhis/CodeQuiz"
+            },
+            {
+                "title": "Team Profile Generator",
+                "category": "Full-Stack application built with NodeJS, Inquirer library and tested with JEST testing",
+                "image": "team-generator-app.png",
+                "url": " https://drive.google.com/file/d/17aUyn9VkdQehAr2PxuCp-qXrHtvloR4z/view",
+                "code": "https://github.com/Enxhis/Team-Profile-Generator"
+            },
+            {
+                "title": "Employee Directory",
+                "category": "Application built with ReactJS and Axios",
+                "image": "employee-directory-app.png",
+                "url": "https://employee-directory-enxhis.herokuapp.com/",
+                "code": "https://github.com/Enxhis/Employee-Directory"
+            }
+        ]
+    }, 
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "Your UI is extremely polished and clean, and your repo is really well organized. Keep up the great work!",
+                "user": "Central Grader - MSU Bootcamp"
+            },
+            {
+                "text": "Fantastic display of the current date. Impressive data persisting with localStorage. Very nice complete README. Keep up the awesome work, and happy coding!",
+                "user": "Central Grader - MSU Bootcamp"
+            },
+            {
+                "text": "Fantastic command line flow. Excellent file generation based on user input. Solid demo video, though it demonstrates only the command line flow, and not the generated file. Wonderful markdown formatting, especially the table of contents and badge.",
+                "user":"Central Grader - MSU Bootcamp"
+            },
+            {
+                "text": "Great job Enxhi! Your application demonstrates an impressive command of javascript through the use of async functions, switch case statements, and other features. Keep up the hard work!",
+                "user":"Central Grader - MSU Bootcamp"
+            }
+        ]
+    }
+}
