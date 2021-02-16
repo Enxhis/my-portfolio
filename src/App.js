@@ -1,33 +1,58 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
+import React, { Component } from 'react';
+import ReactGA from 'react-ga';
+import $ from 'jquery';
+//import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Nav from 'react-bootstrap/Nav'
+import About from './components/About';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Testimonials from './components/Testimonials';
+import Portfolio from './components/Portfolio';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Router>
-        <Nav variant="tabs" defaultActiveKey="/home">
-          <Nav.Item>
-            <Nav.Link href="/">Home</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="Contact">Contact</Nav.Link>
-          </Nav.Item>
-        </Nav>
-        <Route exact path='/'> <Home /></Route>
-        <Route exact path='/Portfolio'> <Portfolio /></Route>
-      </Router>
+class App extends Component {
 
-      <Footer />
-    </div>
-  );
+  constructor(props){
+    super(props);
+    this.state = {
+      foo: 'bar',
+      data: {}
+    };
+
+  }
+
+  getData(){
+    $.ajax({
+      url:'/data.json',
+      dataType:'json',
+      cache: false,
+      success: function(data){
+        this.setState({data: data});
+      }.bind(this),
+      error: function(xhr, status, err){
+        console.log(err);
+        alert(err);
+      }
+    });
+  }
+
+  componentDidMount(){
+    this.getData();
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Header data={this.state.data.main}/>
+        <About data={this.state.data.main}/>
+        <Resume data={this.state.data.resume}/>
+        <Portfolio data={this.state.data.portfolio}/>
+        <Testimonials data={this.state.data.testimonials}/>
+        <Contact data={this.state.data.main}/> 
+        <Footer data={this.state.data.main}/> 
+      </div>
+    );
+  }
 }
 
 export default App;
