@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Header extends Component {
     render() {
 
@@ -16,7 +15,6 @@ class Header extends Component {
 
         return (
             <header id="home">
-
                 <nav id="nav-wrap">
 
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
