@@ -3,9 +3,9 @@
 /* a. Webfonts and Icon fonts
  ------------------------------------------------------------------ */
 
- @import url("fonts.css");
- @import url("fontello/css/fontello.css");
- @import url("font-awesome/css/font-awesome.min.css");
+/* @import url("fonts.css"); */
+ /* @import url("fontello/css/fontello.css");
+ @import url("font-awesome/css/font-awesome.min.css"); */
  
  /* ------------------------------------------------------------------
  /* b. Reset
@@ -27,7 +27,7 @@
  footer, header, hgroup, menu, nav, section, summary,
  time, mark, audio, video {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     border: 0;
     outline: 0;
     font-size: 100%;
@@ -119,7 +119,7 @@
  }
  
  body {
-    background: #fff;
+    background: rgb(153, 145, 145);
     font-family: 'opensans-regular', sans-serif;
     font-weight: normal;
     font-size: 15px;
