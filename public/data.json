@@ -135,19 +135,19 @@
         "testimonials": [
             {
                 "text": "Your UI is extremely polished and clean, and your repo is really well organized. Keep up the great work!",
-                "user": "Central Grader - MSU Bootcamp"
+                "user": "Central Grader - MSU Bootcamp October 2020"
             },
             {
                 "text": "Fantastic display of the current date. Impressive data persisting with localStorage. Very nice complete README. Keep up the awesome work, and happy coding!",
-                "user": "Central Grader - MSU Bootcamp"
+                "user": "Central Grader - MSU Bootcamp November 2020"
             },
             {
                 "text": "Fantastic command line flow. Excellent file generation based on user input. Solid demo video, though it demonstrates only the command line flow, and not the generated file. Wonderful markdown formatting, especially the table of contents and badge.",
-                "user":"Central Grader - MSU Bootcamp"
+                "user":"Central Grader - MSU Bootcamp December 2020"
             },
             {
                 "text": "Great job Enxhi! Your application demonstrates an impressive command of javascript through the use of async functions, switch case statements, and other features. Keep up the hard work!",
-                "user":"Central Grader - MSU Bootcamp"
+                "user":"Central Grader - MSU Bootcamp January 2021"
             }
         ]
     }
